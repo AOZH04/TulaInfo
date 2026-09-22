@@ -37,11 +37,16 @@
     // Панель поиска
     var searchToggle = document.querySelector('.nav_search_toggle');
     var searchBar = document.querySelector('.search_bar');
+    // Фокус инпута на iOS подскролливает страницу и триггерит scroll —
+    // это не должно тут же закрывать только что открытый поиск.
+    var suppressScrollClose = false;
     if (searchToggle && searchBar) {
         searchToggle.addEventListener('click', function () {
             var open = searchBar.classList.toggle('is_open');
             if (open) {
                 closeMenu();
+                suppressScrollClose = true;
+                setTimeout(function () { suppressScrollClose = false; }, 500);
                 var field = searchBar.querySelector('.search_field');
                 if (field) field.focus();
             }
@@ -74,7 +79,7 @@
 
     // Скролл страницы закрывает открытые поиск и меню
     window.addEventListener('scroll', function () {
-        if (searchBar && searchBar.classList.contains('is_open')) {
+        if (searchBar && searchBar.classList.contains('is_open') && !suppressScrollClose) {
             searchBar.classList.remove('is_open');
         }
         if (menu && menu.classList.contains('is_open')) {

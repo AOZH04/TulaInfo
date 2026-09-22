@@ -208,7 +208,7 @@ textarea:focus::placeholder { color: transparent; }
     border: 1px solid transparent;
     border-radius: 8px;
     font-family: var(--ff-base);
-    font-size: 15px;
+    font-size: 16px;
     background: var(--white);
     color: var(--ink);
 }
@@ -219,7 +219,7 @@ textarea:focus::placeholder { color: transparent; }
     border: 1px solid transparent;
     border-radius: 8px;
     font-family: var(--ff-mono);
-    font-size: 14px;
+    font-size: 16px;
     background: var(--white);
     color: var(--ink);
 }
