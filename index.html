@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Тула Инфо — новости Тулы и Тульской области</title>
+    <meta name="description" content="Тула Инфо — городские новости Тулы и Тульской области: общество, происшествия, политика, экономика, спорт, культура. Свежие материалы, фото и видео репортажи.">
+    <meta property="og:title" content="Тула Инфо — новости Тулы и Тульской области">
+    <meta property="og:description" content="Городские новости Тулы: общество, происшествия, политика, экономика, спорт, культура.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site_header">
+    <div class="header_top">
+        <div class="header_top_inner">
+            <a class="header_promo" href="#" aria-label="Подписаться на наш канал в MAX">
+                <img src="img/MAX.svg" alt="">
+                <span class="header_promo_text">Подписывайтесь на наш<br>канал в MAX</span>
+            </a>
+            <a class="header_logo" href="#" aria-label="Тула Инфо — на главную">
+                <img src="img/logo.png" alt="Тула Инфо">
+            </a>
+            <div class="header_meta">
+                <div class="header_socials">
+                    <a href="#" aria-label="Telegram"><img src="img/tg.svg" alt=""></a>
+                    <a href="#" aria-label="ВКонтакте"><img src="img/vk.svg" alt=""></a>
+                    <a href="#" aria-label="MAX"><img src="img/MAX.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header_nav">
+        <div class="header_nav_inner">
+            <button class="nav_burger" type="button" aria-label="Открыть меню" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav_menu" aria-label="Категории новостей">
+                <a class="nav_link" href="#">Общество</a>
+                <a class="nav_link" href="#">Происшествия</a>
+                <a class="nav_link" href="#">Политика</a>
+                <a class="nav_link" href="#">Экономика</a>
+                <a class="nav_link" href="#">Спорт</a>
+                <a class="nav_link" href="#">Культура</a>
+                <a class="nav_link" href="#">Город</a>
+                <a class="nav_link" href="#">Здоровье</a>
+            </nav>
+            <button class="nav_search_toggle" type="button" aria-label="Поиск">
+                <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                    <path d="M10 4a6 6 0 1 0 3.9 10.6l4.8 4.8 1.4-1.4-4.8-4.8A6 6 0 0 0 10 4zm0 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8z" fill="currentColor"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="search_bar">
+            <div class="search_bar_inner">
+                <form class="search_form" action="#" method="get" role="search">
+                    <input class="search_field" type="search" name="s" placeholder="Поиск по заголовку…" aria-label="Поиск по заголовку">
+                    <input class="search_date" type="date" name="date" aria-label="Поиск по дате">
+                    <button class="search_submit" type="submit">Найти</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="site_main">
+    <h1 class="visually_hidden">Тула Инфо — новости Тулы и Тульской области</h1>
+
+    <section class="hero_section">
+        <div class="hero_section_inner">
+            <div class="hero_grid">
+                <div class="hero_main">
+                    <article class="news_card hero_card is_lead">
+                        <a class="news_card_link" href="#">
+                            <div class="news_card_media"><img src="img/gorod_post1.png" alt=""></div>
+                            <div class="news_card_body">
+                                <span class="news_tag">Городская среда</span>
+                                <h3 class="news_card_title">На ремонт дорог в Туле выделили рекордную сумму</h3>
+                                <span class="news_time">Сегодня, 16:20</span>
+                            </div>
+                        </a>
+                    </article>
+
+                    <div class="hero_sub">
+                        <article class="news_card">
+                            <a class="news_card_link" href="#">
+                                <div class="news_card_media"><img src="img/proisshestviya_post1.png" alt=""></div>
+                                <div class="news_card_body">
+                                    <span class="news_tag">Происшествия</span>
+                                    <h3 class="news_card_title">На трассе М-2 под Тулой произошло крупное ДТП</h3>
+                                    <span class="news_time">Сегодня, 15:40</span>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="news_card">
+                            <a class="news_card_link" href="#">
+                                <div class="news_card_media"><img src="img/sport_post1.png" alt=""></div>
+                                <div class="news_card_body">
+                                    <span class="news_tag">Спорт</span>
+                                    <h3 class="news_card_title">Тульский «Арсенал» одержал победу в домашнем матче</h3>
+                                    <span class="news_time">Сегодня, 14:25</span>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="news_card">
+                            <a class="news_card_link" href="#">
+                                <div class="news_card_media"><img src="img/kultura_post1.png" alt=""></div>
+                                <div class="news_card_body">
+                                    <span class="news_tag">Культура</span>
+                                    <h3 class="news_card_title">В Туле открылась выставка современной живописи</h3>
+                                    <span class="news_time">Сегодня, 13:10</span>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+
+                <aside class="hero_feed">
+                    <div class="feed_head">
+                        <span class="feed_head_title">Последние новости</span>
+                    </div>
+                    <a class="feed_item" href="#">
+                        <span class="feed_meta"><span class="feed_cat">Политика</span><span class="feed_time">15:20</span></span>
+                        <span class="feed_title">Губернатор провёл заседание правительства области</span>
+                    </a>
+                    <a class="feed_item" href="#">
+                        <span class="feed_meta"><span class="feed_cat">Экономика</span><span class="feed_time">14:05</span></span>
+                        <span class="feed_title">Новый завод в Узловой создаст 300 рабочих мест</span>
+                    </a>
+                    <a class="feed_item" href="#">
+                        <span class="feed_meta"><span class="feed_cat">Здоровье</span><span class="feed_time">12:40</span></span>
+                        <span class="feed_title">В Тульской области стартовала вакцинация от гриппа</span>
+                    </a>
+                    <a class="feed_item" href="#">
+                        <span class="feed_meta"><span class="feed_cat">Общество</span><span class="feed_time">11:15</span></span>
+                        <span class="feed_title">Волонтёры помогли собрать детей в школу</span>
+                    </a>
+                    <a class="feed_item" href="#">
+                        <span class="feed_meta"><span class="feed_cat">Город</span><span class="feed_time">09:50</span></span>
+                        <span class="feed_title">В Туле запустили новый маршрут электробуса</span>
+                    </a>
+                    <a class="feed_all" href="#">Все новости →</a>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <section class="picks_section">
+        <div class="picks_section_inner">
+            <div class="picks_grid">
+                <div class="picks_main">
+                    <div class="section_head">
+                        <h2 class="section_head_title">Выбор редакции</h2>
+                        <a class="section_head_link" href="#">Читать все →</a>
+                    </div>
+                    <div class="picks_cards">
+                        <article class="news_card">
+                            <a class="news_card_link" href="#">
+                                <div class="news_card_media"><img src="img/kultura_post2.png" alt=""></div>
+                                <div class="news_card_body">
+                                    <span class="news_tag">Культура</span>
+                                    <h3 class="news_card_title">Тульская филармония открыла новый концертный сезон</h3>
+                                    <span class="news_time">20 сентября</span>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="news_card">
+                            <a class="news_card_link" href="#">
+                                <div class="news_card_media"><img src="img/obshchestvo_post1.png" alt=""></div>
+                                <div class="news_card_body">
+                                    <span class="news_tag">Общество</span>
+                                    <h3 class="news_card_title">Люди города: истории тульских волонтёров</h3>
+                                    <span class="news_time">19 сентября</span>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="news_card">
+                            <a class="news_card_link" href="#">
+                                <div class="news_card_media"><img src="img/ekonomika_post2.png" alt=""></div>
+                                <div class="news_card_body">
+                                    <span class="news_tag">Экономика</span>
+                                    <h3 class="news_card_title">Тульские фермеры собрали рекордный урожай</h3>
+                                    <span class="news_time">18 сентября</span>
+                                </div>
+                            </a>
+                        </article>
+                        <article class="news_card">
+                            <a class="news_card_link" href="#">
+                                <div class="news_card_media"><img src="img/sport_post2.png" alt=""></div>
+                                <div class="news_card_body">
+                                    <span class="news_tag">Спорт</span>
+                                    <h3 class="news_card_title">Марафон «Тульский рубеж»: как это было</h3>
+                                    <span class="news_time">17 сентября</span>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+
+                <aside class="picks_aside">
+                    <div class="section_head">
+                        <h2 class="section_head_title">Популярное за неделю</h2>
+                    </div>
+                    <ol class="popular_list">
+                        <li class="popular_item">
+                            <a href="#">
+                                <span class="popular_num">01</span>
+                                <span class="popular_text">
+                                    <span class="popular_cat">Происшествия</span>
+                                    <span class="popular_title">Пожар в центре Тулы: подробности и последствия</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="popular_item">
+                            <a href="#">
+                                <span class="popular_num">02</span>
+                                <span class="popular_text">
+                                    <span class="popular_cat">Политика</span>
+                                    <span class="popular_title">Депутаты приняли новый бюджет области на год</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="popular_item">
+                            <a href="#">
+                                <span class="popular_num">03</span>
+                                <span class="popular_text">
+                                    <span class="popular_cat">Город</span>
+                                    <span class="popular_title">Топ-5 парков Тулы для осенних прогулок</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="popular_item">
+                            <a href="#">
+                                <span class="popular_num">04</span>
+                                <span class="popular_text">
+                                    <span class="popular_cat">Здоровье</span>
+                                    <span class="popular_title">Врачи рассказали, как не заболеть осенью</span>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="popular_item">
+                            <a href="#">
+                                <span class="popular_num">05</span>
+                                <span class="popular_text">
+                                    <span class="popular_cat">Экономика</span>
+                                    <span class="popular_title">Цены на продукты: что подорожало за неделю</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ol>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <section class="media_section">
+        <div class="media_section_inner">
+            <div class="section_head">
+                <h2 class="section_head_title">Фото и видео</h2>
+                <a class="section_head_link" href="#">Все репортажи →</a>
+            </div>
+            <div class="media_grid">
+                <article class="news_card media_card is_video">
+                    <a class="news_card_link" href="#">
+                        <div class="news_card_media"><img src="img/tula_center.png" alt=""><span class="media_play" aria-hidden="true"></span></div>
+                        <div class="news_card_body">
+                            <span class="news_tag">Видео</span>
+                            <h3 class="news_card_title">Прогулка по центру Тулы</h3>
+                        </div>
+                    </a>
+                </article>
+                <article class="news_card media_card">
+                    <a class="news_card_link" href="#">
+                        <div class="news_card_media"><img src="img/kultura_post3.png" alt=""></div>
+                        <div class="news_card_body">
+                            <span class="news_tag">Фоторепортаж</span>
+                            <h3 class="news_card_title">Гала-концерт народного ансамбля в Туле</h3>
+                        </div>
+                    </a>
+                </article>
+                <article class="news_card media_card is_video">
+                    <a class="news_card_link" href="#">
+                        <div class="news_card_media"><img src="img/sport_post3.png" alt=""><span class="media_play" aria-hidden="true"></span></div>
+                        <div class="news_card_body">
+                            <span class="news_tag">Видео</span>
+                            <h3 class="news_card_title">Лучшие моменты хоккейного матча</h3>
+                        </div>
+                    </a>
+                </article>
+                <article class="news_card media_card">
+                    <a class="news_card_link" href="#">
+                        <div class="news_card_media"><img src="img/gorod_post3.png" alt=""></div>
+                        <div class="news_card_body">
+                            <span class="news_tag">Фоторепортаж</span>
+                            <h3 class="news_card_title">Новые электробусы и остановки на маршрутах Тулы</h3>
+                        </div>
+                    </a>
+                </article>
+                <article class="news_card media_card">
+                    <a class="news_card_link" href="#">
+                        <div class="news_card_media"><img src="img/proisshestviya_post3.png" alt=""></div>
+                        <div class="news_card_body">
+                            <span class="news_tag">Фоторепортаж</span>
+                            <h3 class="news_card_title">Скорая помощь Тулы: один день из жизни бригады</h3>
+                        </div>
+                    </a>
+                </article>
+                <article class="news_card media_card is_video">
+                    <a class="news_card_link" href="#">
+                        <div class="news_card_media"><img src="img/obshchestvo_post2.png" alt=""><span class="media_play" aria-hidden="true"></span></div>
+                        <div class="news_card_body">
+                            <span class="news_tag">Видео</span>
+                            <h3 class="news_card_title">Как проходят уроки в тульских школах</h3>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site_footer">
+    <div class="footer_top">
+        <div class="footer_top_inner">
+            <div class="footer_cols">
+                <div class="footer_col">
+                    <span class="footer_col_title">Разделы</span>
+                    <nav class="footer_links" aria-label="Разделы">
+                        <a href="#">Общество</a>
+                        <a href="#">Происшествия</a>
+                        <a href="#">Политика</a>
+                        <a href="#">Экономика</a>
+                    </nav>
+                </div>
+                <div class="footer_col">
+                    <span class="footer_col_title">Ещё</span>
+                    <nav class="footer_links" aria-label="Ещё разделы">
+                        <a href="#">Спорт</a>
+                        <a href="#">Культура</a>
+                        <a href="#">Город</a>
+                        <a href="#">Здоровье</a>
+                    </nav>
+                </div>
+                <div class="footer_col">
+                    <span class="footer_col_title">Издание</span>
+                    <nav class="footer_links" aria-label="Об издании">
+                        <a href="#">О проекте</a>
+                        <a href="#">Контакты</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer_brand">
+                <div class="footer_logo"><img src="img/logo.png" alt="Тула Инфо"></div>
+                <a class="footer_phone" href="tel:+74872000000">+7 (4872) 00-00-00</a>
+                <div class="footer_socials">
+                    <a href="#" aria-label="Telegram"><img src="img/tg.svg" alt=""></a>
+                    <a href="#" aria-label="ВКонтакте"><img src="img/vk.svg" alt=""></a>
+                    <a href="#" aria-label="MAX"><img src="img/MAX.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_dates">
+        <div class="footer_dates_inner">
+            <span class="footer_dates_title">Новости по датам</span>
+            <div class="dates_scroll">
+                <div class="dates_row"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_legal">
+        <div class="footer_legal_inner">
+            <p>© 2026 Тула Инфо. Сетевое издание. Материалы 16+. При использовании материалов ссылка на сайт обязательна. Все изображения носят иллюстративный характер.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
