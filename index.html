@@ -18,19 +18,19 @@
 <header class="site_header">
     <div class="header_top">
         <div class="header_top_inner">
-            <a class="header_promo" href="#" aria-label="Подписаться на наш канал в MAX">
-                <img src="img/MAX.svg" alt="">
-                <span class="header_promo_text">Подписывайтесь на наш<br>канал в MAX</span>
-            </a>
             <a class="header_logo" href="#" aria-label="Тула Инфо — на главную">
-                <img src="img/logo.png" alt="Тула Инфо">
+                <img src="img/logonew.png" alt="Тула Инфо">
             </a>
             <div class="header_meta">
                 <div class="header_socials">
-                    <a href="#" aria-label="Telegram"><img src="img/tg.svg" alt=""></a>
-                    <a href="#" aria-label="ВКонтакте"><img src="img/vk.svg" alt=""></a>
-                    <a href="#" aria-label="MAX"><img src="img/MAX.svg" alt=""></a>
+                    <a href="#" aria-label="Telegram"><img src="img/tg_mono.svg" alt=""></a>
+                    <a href="#" aria-label="ВКонтакте"><img src="img/vk_mono.svg" alt=""></a>
+                    <a href="#" aria-label="MAX"><img src="img/max_mono.svg" alt=""></a>
                 </div>
+                <a class="header_promo" href="#" aria-label="Подписаться на наш канал в MAX">
+                    <img src="img/MAX.svg" alt="">
+                    <span class="header_promo_text">Подписывайтесь на наш<br>канал в MAX</span>
+                </a>
             </div>
         </div>
     </div>
@@ -45,10 +45,7 @@
                 <a class="nav_link" href="#">Происшествия</a>
                 <a class="nav_link" href="#">Политика</a>
                 <a class="nav_link" href="#">Экономика</a>
-                <a class="nav_link" href="#">Спорт</a>
-                <a class="nav_link" href="#">Культура</a>
                 <a class="nav_link" href="#">Город</a>
-                <a class="nav_link" href="#">Здоровье</a>
             </nav>
             <button class="nav_search_toggle" type="button" aria-label="Поиск">
                 <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
@@ -71,6 +68,48 @@
 
 <main class="site_main">
     <h1 class="visually_hidden">Тула Инфо — новости Тулы и Тульской области</h1>
+
+    <section class="urgent_section">
+        <div class="urgent_section_inner">
+            <div class="urgent_bar">
+                <div class="urgent_head">
+                    <span class="urgent_label">Главное к этому часу</span>
+                </div>
+                <ul class="urgent_list">
+                    <li class="urgent_item">
+                        <a class="urgent_link" href="#">
+                            <img class="urgent_bg" src="img/gorod_post2.png" alt="">
+                            <span class="urgent_title">В центре Тулы ограничат движение из-за ремонта теплотрассы</span>
+                        </a>
+                    </li>
+                    <li class="urgent_item">
+                        <a class="urgent_link" href="#">
+                            <img class="urgent_bg" src="img/gorod_post3.png" alt="">
+                            <span class="urgent_title">Синоптики предупредили о резком похолодании в выходные</span>
+                        </a>
+                    </li>
+                    <li class="urgent_item">
+                        <a class="urgent_link" href="#">
+                            <img class="urgent_bg" src="img/gorod_cover.png" alt="">
+                            <span class="urgent_title">Мэрия отчиталась о ходе благоустройства набережной</span>
+                        </a>
+                    </li>
+                    <li class="urgent_item">
+                        <a class="urgent_link" href="#">
+                            <img class="urgent_bg" src="img/tula_center.png" alt="">
+                            <span class="urgent_title">Тульский аэропорт возобновил приём рейсов после тумана</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="section_rule">
+        <div class="section_rule_inner">
+            <span class="section_rule_line"></span>
+        </div>
+    </div>
 
     <section class="hero_section">
         <div class="hero_section_inner">
@@ -146,6 +185,62 @@
                         <span class="feed_title">В Туле запустили новый маршрут электробуса</span>
                     </a>
                     <a class="feed_all" href="#">Все новости →</a>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <section class="world_section">
+        <div class="world_section_inner">
+            <div class="world_grid">
+                <div class="world_main">
+                    <div class="section_head">
+                        <h2 class="section_head_title">Картина дня</h2>
+                    </div>
+                    <article class="news_card hero_card is_lead">
+                        <a class="news_card_link" href="#">
+                            <div class="news_card_media"><img src="img/tula_kremlin.png" alt=""></div>
+                            <div class="news_card_body">
+                                <span class="news_tag">Фото дня</span>
+                                <h3 class="news_card_title">Рассвет над Тульским кремлём после первых заморозков</h3>
+                                <span class="news_time">Сегодня, 07:30</span>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+
+                <aside class="world_feed">
+                    <div class="section_head">
+                        <h2 class="section_head_title">Мировая повестка</h2>
+                    </div>
+                    <a class="world_item" href="#">
+                        <span class="world_media"><img src="img/politika_post3.png" alt=""></span>
+                        <span class="world_text">
+                            <span class="world_title">Главы государств обсудили экономическое сотрудничество на саммите</span>
+                            <span class="world_time">Сегодня, 15:10</span>
+                        </span>
+                    </a>
+                    <a class="world_item" href="#">
+                        <span class="world_media"><img src="img/ekonomika_post3.png" alt=""></span>
+                        <span class="world_text">
+                            <span class="world_title">Мировые рынки отреагировали на решение по ключевой ставке</span>
+                            <span class="world_time">Сегодня, 13:45</span>
+                        </span>
+                    </a>
+                    <a class="world_item" href="#">
+                        <span class="world_media"><img src="img/proisshestviya_post2.png" alt=""></span>
+                        <span class="world_text">
+                            <span class="world_title">Учёные представили новые данные о климатических изменениях</span>
+                            <span class="world_time">Сегодня, 11:20</span>
+                        </span>
+                    </a>
+                    <a class="world_item" href="#">
+                        <span class="world_media"><img src="img/obshchestvo_post3.png" alt=""></span>
+                        <span class="world_text">
+                            <span class="world_title">В Европе стартовал крупный культурный форум с участием России</span>
+                            <span class="world_time">Сегодня, 09:35</span>
+                        </span>
+                    </a>
                 </aside>
             </div>
         </div>
@@ -326,53 +421,23 @@
 </main>
 
 <footer class="site_footer">
-    <div class="footer_top">
-        <div class="footer_top_inner">
-            <div class="footer_cols">
-                <div class="footer_col">
-                    <span class="footer_col_title">Разделы</span>
-                    <nav class="footer_links" aria-label="Разделы">
-                        <a href="#">Общество</a>
-                        <a href="#">Происшествия</a>
-                        <a href="#">Политика</a>
-                        <a href="#">Экономика</a>
-                    </nav>
-                </div>
-                <div class="footer_col">
-                    <span class="footer_col_title">Ещё</span>
-                    <nav class="footer_links" aria-label="Ещё разделы">
-                        <a href="#">Спорт</a>
-                        <a href="#">Культура</a>
-                        <a href="#">Город</a>
-                        <a href="#">Здоровье</a>
-                    </nav>
-                </div>
-                <div class="footer_col">
-                    <span class="footer_col_title">Издание</span>
-                    <nav class="footer_links" aria-label="Об издании">
-                        <a href="#">О проекте</a>
-                        <a href="#">Контакты</a>
-                    </nav>
-                </div>
-            </div>
-            <div class="footer_brand">
-                <div class="footer_logo"><img src="img/logo.png" alt="Тула Инфо"></div>
-                <a class="footer_phone" href="tel:+74872000000">+7 (4872) 00-00-00</a>
-                <div class="footer_socials">
-                    <a href="#" aria-label="Telegram"><img src="img/tg.svg" alt=""></a>
-                    <a href="#" aria-label="ВКонтакте"><img src="img/vk.svg" alt=""></a>
-                    <a href="#" aria-label="MAX"><img src="img/MAX.svg" alt=""></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="footer_dates">
         <div class="footer_dates_inner">
             <span class="footer_dates_title">Новости по датам</span>
             <div class="dates_scroll">
                 <div class="dates_row"></div>
             </div>
+        </div>
+    </div>
+
+    <div class="footer_about">
+        <div class="footer_about_inner">
+            <div class="footer_about_head">
+                <span class="footer_about_title">О проекте</span>
+                <a class="footer_about_contacts" href="#">Контакты</a>
+            </div>
+            <p class="footer_about_text">«Инфо 71» — информационный портал, освещающий жизнь Тульской области.</p>
+            <div class="footer_about_logo"><img src="img/logonew.png" alt="Тула Инфо"></div>
         </div>
     </div>
 

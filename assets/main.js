@@ -65,7 +65,7 @@
             if (searchToggle && headerMeta && searchToggle.parentNode !== headerMeta) headerMeta.appendChild(searchToggle);
             if (burger && headerMeta && burger.parentNode !== headerMeta) headerMeta.appendChild(burger);
         } else {
-            if (socials && headerMeta && socials.parentNode !== headerMeta) headerMeta.appendChild(socials);
+            if (socials && headerMeta && socials.parentNode !== headerMeta) headerMeta.insertBefore(socials, headerMeta.firstChild);
             if (burger && navInner && burger.parentNode !== navInner) navInner.insertBefore(burger, navInner.firstChild);
             if (searchToggle && navInner && searchToggle.parentNode !== navInner) navInner.appendChild(searchToggle);
         }
